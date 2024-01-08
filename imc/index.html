@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>   
+    <table>
+        <tr id="titulo">
+            <td>IMC</td>
+            <td>CLASSIFICAÇÃO</td>
+            <td>GRAU DE OBESIDADE</td>
+        </tr>
+        <tr id="magreza">
+            <td>MENOR QUE 18,5</td>
+            <td>MAGREZA</td>
+            <td>0</td>
+        </tr>
+        <tr id="normal">
+            <td>ENTRE 18,5 E 24,9</td>
+            <td>NORMAL</td>
+            <td>0</td>
+        </tr>
+        <tr id="sobrepeso">
+            <td>ENTRE 25,0 E 29,9</td>
+            <td>SOBREPESO</td>
+            <td>|</td>
+        </tr>
+        <tr id="obesidade">
+            <td>ENTRE 30,0 E 39,9</td>
+            <td>OBESIDADE</td>
+            <td>||</td>
+        </tr>
+        <tr id="obesidadeGrave">
+            <td>MAIOR QUE 40,0</td>
+            <td>OBESIDADE GRAVE</td>
+            <td>|||</td>
+        </tr>
+    </table>
+    <div id="questionario">
+            <input type="text" placeholder="altura" id="altura">
+            <input type="text" placeholder="peso" id="peso">
+            <button id="submite"> calcular ></button>
+    </div>
+
+    <div id="resultado">
+        <h3>SEU IMC:</h3>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
